@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    
+    
+    <body>
+        
+        <script type="text/javascript" src="functions.js"></script>
+        
+        <main>
+            <div>
+                <input id="textview">
+            </div>
+                
+            <div>
+                <button class="button" onclick="ClearAll()" value="C"> C </button>
+                <button class="button" onclick="Clear()" value="<"> < </button>
+                <button class="button" onclick="insert ('/')" value="/">/</button>
+                <button class="button" onclick="insert('*')" value="*">x</button>
+            </div>
+
+            <div>
+                <button class="button" onclick="insert(7)" value="7">7</button>
+                <button class="button" onclick="insert(8)" value="8">8</button>
+                <button class="button" onclick="insert(9)" value="9">9</button>
+                <button class="button" onclick="insert('-')" value="-">-</button>
+            </div>
+
+            <div>
+                <button class="button" onclick="insert(4)" value="4">4</button>
+                <button class="button" onclick="insert(5)" value="5">5</button>
+                <button class="button" onclick="insert(6)" value="6">6</button>
+                <button class="button" onclick="insert('+')" value="+">+</button>
+            </div>
+
+            <div>
+                <button class="button" onclick="insert(1)" value="1">1</button>
+                <button class="button" onclick="insert(2)" value="2">2</button>
+                <button class="button" onclick="insert(3)" value="3">3</button>
+                <button class="button" onclick="equal()" value="=" style = "height: 105px; position: absolute; margin-left: 6px;" >=</button>
+            
+            </div>
+
+            <div>
+                <button class="button" style = "width: 108px;"  onclick="insert(0)" value="0">0</button>
+                <button class="button" onclick="insert('.')" value=".">.</button>
+            </div>
+        </main>
+
+    </body>
+
+
+</html>
